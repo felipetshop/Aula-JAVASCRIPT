@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(125, 227, 245);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+
+.container{
+    display: flex;
+    background: #fff;
+    padding: 1rem;
+    width: 700px;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.267);
+   
+}
+.born{
+    display: flex;
+    padding: 0.5rem;
+    
+}
+
+.sexo{
+    display: flex;
+    padding: 0.5rem;
+    
+}
+
+.sexo label{
+    display: flex;
+    padding-left: 5px;
+}
+
+.sexo input[type="radio"]:hover{
+    cursor: pointer;
+    
+}
+
+.button{
+    margin-top: 5px;
+}
+
+#btn{
+    display: flex;
+    padding: 0.5rem;
+    margin: auto;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    color:  rgb(239, 244, 245);
+    background:  rgb(125, 227, 245);
+    cursor: pointer;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.247);
+    animation: 2s ease;
+}
+
+.imag{
+    margin-top: 40px;
+    
+}
+
+.imag img{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    border: solid 4px rgb(76, 206, 238);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+    
+}
+
+.end{
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: initial;
+    color: rgb(166, 173, 173);
+    size: 10px;
+    margin-top: 30px;
+}
+
+

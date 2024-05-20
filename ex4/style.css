@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto';
+    background: rgb(120, 213, 241);
+}
+
+.title{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.card{
+    background: #fff;
+    display: flex;
+    width: 700px;
+    margin: auto;
+    padding: 1rem;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.39);
+}
+
+.numero{
+    margin-top: 20px;
+}
+
+#btn1:hover{
+    background: rgb(120, 213, 241);
+    color: #fff;
+    cursor: pointer;
+    border: solid 1px black;
+    border-radius: 3px;
+    transition: 0.5s ease;
+}
+
+.result{
+    margin-top: 20px;
+    
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    font-family: initial;
+    color: rgb(166, 173, 173);
+    size: 10px;
+    margin-top: 30px;
+}

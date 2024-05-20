@@ -1,0 +1,24 @@
+#bloco {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Paprika', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.9s ease;
+  }
+  
+  .animated {
+    animation: example 5s infinite;
+  }
+  
+  @keyframes example {
+    0%   {background-color: red; transform: translate(0, 0);}
+    25%  {background-color: yellow; transform: translate(200px, 0);}
+    50%  {background-color: blue; transform: translate(200px, 200px);}
+    75%  {background-color: green; transform: translate(0, 200px);}
+    100% {background-color: red; transform: translate(0, 0);}
+  }
+  
